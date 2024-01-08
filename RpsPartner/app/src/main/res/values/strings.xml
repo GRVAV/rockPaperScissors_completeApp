@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">RPSpartner</string>
+    <string name="copyright">\u00a9 Gourav Avala</string>
+    <string name="rock">Rock</string>
+    <string name="paper">Paper</string>
+    <string name="scissor">Scissor</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="info_header">User Info</string>
+    <!-- Messages Preferences -->
+    <string name="name_title">Your Name</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="notify_title">Disable Notifications</string>
+    <string name="notify_summary_on">All the notifications are now enabled
+    </string>
+    <string name="notify_summary_off">All the notifications are now disabled</string>
+</resources>

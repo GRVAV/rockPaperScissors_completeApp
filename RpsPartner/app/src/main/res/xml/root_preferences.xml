@@ -1,0 +1,30 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <PreferenceCategory app:title="@string/info_header"
+        app:icon="@drawable/ic_baseline_info_24">
+
+        <EditTextPreference
+            app:key="Name"
+            app:title="@string/name_title"
+            app:useSimpleSummaryProvider="true" />
+
+
+    </PreferenceCategory>
+    <PreferenceCategory app:title="Notifications"
+        app:icon="@drawable/ic_baseline_edit_notifications_24">
+
+        <SeekBarPreference app:title="Volume"
+            app:key="notifyVolume"
+            app:icon="@drawable/ic_baseline_volume_up_24"
+            app:showSeekBarValue="true"
+            app:defaultValue="50" />
+
+        <SwitchPreferenceCompat
+            app:title="@string/notify_title"
+            app:summaryOff="@string/notify_summary_on"
+            app:summaryOn="@string/notify_summary_off"
+            app:icon="@drawable/ic_baseline_notifications_off_24" />
+
+    </PreferenceCategory>
+</PreferenceScreen>
